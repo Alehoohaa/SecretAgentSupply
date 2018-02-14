@@ -3,7 +3,6 @@ html{
   color: white;
   font-family: Helvetica;
 }
-
 .container{
   width: 960px;
   margin: 0 auto;
@@ -13,41 +12,32 @@ header{
   width: 100%;
   padding: .66rem;
 }
-
 .logo{
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: auto 0;
 }
-
 .logo img{
   height:1.5rem;
   margin: 0 1rem 0 .5rem;
-
-
 }
-
 .logo span{
   font-size: 1rem;
 }
-
 .new-arrival h1{
   font-family: Helvetica;
   font-size: 2rem;
   font-weight: bold;
   margin-top: .50rem;
 }
-
 .hero{
   background-image: url("../images/moto.jpeg");
   height:25rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
-
 .new-arrival{
   width: 20rem;
   background: black;
@@ -56,11 +46,9 @@ header{
   position: absolute;
   top: 10rem;
 }
-
 nav{
   background-color: firebrick;
 }
-
 nav .container{
   display:flex;
   flex-direction: row;
@@ -71,6 +59,11 @@ nav span{
   display: inline-block;
   margin: .75rem 0;
   font-size: .90rem;
-
-
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: lightgrey;
 }
