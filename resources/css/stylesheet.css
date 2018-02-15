@@ -188,4 +188,6 @@ nav span{
   width: 90%;
   padding: .5rem 0 .5rem 0;
 }
+.item-image img{
+  height:8rem;
 }
