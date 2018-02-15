@@ -42,7 +42,7 @@ header{
   background: black;
   opacity: .8;
   padding:2rem 0 3rem 2rem;
-  position: absolute;
+  position: relative;
   top: 10rem;
 }
 nav{
@@ -159,13 +159,16 @@ nav span{
 }
 #hero{
   height:15rem;
-  }
+}
 .new-arrival h1{
   font-size: 1rem;
 }
 .new-arrival{
+  width: 100%;
   padding:1rem 0 1rem 2rem;
-  top: 13.5rem;
+  top: 10.5rem;
+
+
 }
 .products{
   justify-content:center;
