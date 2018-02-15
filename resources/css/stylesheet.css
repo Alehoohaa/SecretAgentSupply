@@ -67,7 +67,6 @@ nav a{
 nav a:hover{
   color: lightgrey;
 }
-
 .products{
   padding: 3rem 0 0 0;
   display: flex;
@@ -96,4 +95,29 @@ nav a:hover{
  padding: .5rem 0;
  background-color: black;
  text-align: center;
+}
+.store-info{
+  display: flex;
+  padding-top:3rem 0 0 0;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.info{
+  width: 35%;
+  padding:3rem 0 4rem 0;
+}
+.info-top{
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+.info-bottom{
+  color:black;
+}
+footer{
+  display: flex;
+  justify-content:flex-start;
+  height: 10rem;
+  align-items: center;
+  text-align: left;
+  background-color: black;
 }
