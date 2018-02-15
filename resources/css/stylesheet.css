@@ -9,7 +9,6 @@ html{
 }
 header{
   background-color:black;
-  width: 100%;
   padding: .66rem;
 }
 .logo{
@@ -57,7 +56,7 @@ nav .container{
 }
 nav span{
   display: inline-block;
-  margin: .75rem 0;
+  margin: 1rem 0;
   font-size: .90rem;
 }
 nav a{
@@ -66,6 +65,9 @@ nav a{
 }
 nav a:hover{
   color: lightgrey;
+}
+.mobile-nav{
+  display: none;
 }
 .products{
   padding: 3rem 0 0 0;
@@ -120,4 +122,70 @@ footer{
   align-items: center;
   text-align: left;
   background-color: black;
+}
+
+@media only screen and (max-width: 1024px){
+.container{
+  width: 90%
+}
+nav span{
+  display: none;
+}
+.mobile-nav {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+.mobile-nav span{
+  display: inline-block;
+  margin: 1rem 0;
+  font-size: .90rem;
+}
+.product{
+  width: 47%;
+}
+.glasses{
+  display: none;
+}
+.info{
+  width: 35%;
+}
+}
+
+@media only screen and (max-width: 470px){
+.container{
+  width: 90%;
+}
+#hero{
+  height:15rem;
+  }
+.new-arrival h1{
+  font-size: 1rem;
+}
+.new-arrival{
+  padding:1rem 0 1rem 2rem;
+  top: 13.5rem;
+}
+.products{
+  justify-content:center;
+}
+.product{
+  width: 90%;
+  align-items: center;
+}
+.watch{
+  display: none;
+}
+.store-info{
+  display: flex;
+  margin: 2rem 0 3rem 0;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.info{
+  width: 90%;
+  padding: .5rem 0 .5rem 0;
+}
 }
