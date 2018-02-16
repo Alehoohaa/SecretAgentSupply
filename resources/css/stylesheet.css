@@ -202,4 +202,7 @@ header .container{
 .item-image img{
   height:8rem;
 }
+footer{
+  text-align: center;
+}
 }
