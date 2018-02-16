@@ -154,8 +154,18 @@ nav span{
 }
 
 @media only screen and (max-width: 470px){
+header .container{
+  width:100%;
+}
+.logo img{
+    height:1.5rem;
+    margin: 0 1rem 0 0rem;
+  }
 .container{
   width: 90%;
+}
+#hero .container{
+  width: 100%;
 }
 #hero{
   height:15rem;
@@ -164,11 +174,9 @@ nav span{
   font-size: 1rem;
 }
 .new-arrival{
-  width: 100%;
-  padding:1rem 0 1rem 2rem;
+  width: 98.5%;
+  padding:1rem 0 1rem .25rem;
   top: 10.5rem;
-
-
 }
 .products{
   justify-content:center;
@@ -193,4 +201,5 @@ nav span{
 }
 .item-image img{
   height:8rem;
+}
 }
